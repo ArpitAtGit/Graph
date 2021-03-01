@@ -1,0 +1,27 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;  
+}
+.container{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.selection, .selection select{
+    margin: 10px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: baseline;
+    outline: none;
+    font: bold 16px 'Montserrat', sans-serif;
+}
+
+.hide{
+    display: none;
+    
+}
+.vis{
+    display: block;
+}
